@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Caique Sanches — Tecnologia, Desenvolvimento e Aprendizado</title>
+  <desc id="desc">Banner escuro com gradientes azuis e ciano, linhas de circuito e o nome Caique Sanches.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071321"/>
+      <stop offset="52%" stop-color="#0B2440"/>
+      <stop offset="100%" stop-color="#06111F"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="56%" stop-color="#BAE6FD"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#38BDF8" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <path d="M0 250 C190 180 260 325 470 255 S790 180 970 245 S1110 285 1200 220 L1200 320 L0 320 Z" fill="#0C4A6E" opacity="0.26"/>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M0 76 H155 L195 116 H282"/>
+    <path d="M0 108 H96 L133 145 H207"/>
+    <path d="M1200 62 H1065 L1026 101 H952"/>
+    <path d="M1200 100 H1120 L1080 140 H1008"/>
+    <path d="M45 280 H175 L210 245 H300"/>
+    <path d="M1155 278 H1060 L1025 243 H940"/>
+  </g>
+  <g fill="#22D3EE" filter="url(#glow)">
+    <circle cx="282" cy="116" r="4"/><circle cx="207" cy="145" r="3"/>
+    <circle cx="952" cy="101" r="4"/><circle cx="1008" cy="140" r="3"/>
+    <circle cx="300" cy="245" r="3"/><circle cx="940" cy="243" r="3"/>
+  </g>
+  <g transform="translate(90 112)" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M46 0 L8 38 L46 76"/>
+    <path d="M104 0 L142 38 L104 76"/>
+    <path d="M91 8 L61 68"/>
+  </g>
+  <g transform="translate(930 108)" fill="none" stroke="#0EA5E9" stroke-width="3" opacity="0.9">
+    <rect x="0" y="0" width="170" height="112" rx="16"/>
+    <path d="M28 76 L58 45 L88 76 M112 76 L142 45 L112 14" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M86 14 L70 92" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="142" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2" fill="url(#name)">CAIQUE SANCHES</text>
+  <text x="600" y="194" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600" letter-spacing="3" fill="#BAE6FD">TECNOLOGIA  •  DESENVOLVIMENTO  •  APRENDIZADO</text>
+  <path d="M425 224 H775" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <text x="600" y="267" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="1.2" fill="#94A3B8">APRENDENDO, EXPERIMENTANDO E TRANSFORMANDO IDEIAS EM PROJETOS</text>
+</svg>
